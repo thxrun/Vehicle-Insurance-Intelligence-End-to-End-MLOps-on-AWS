@@ -25,6 +25,7 @@ def error_message_detail(error: Exception, error_detail: sys) -> str:
     return error_message
 
 class MyException(Exception):
+    
     """
     Custom exception class for handling errors in the US visa application.
     """
